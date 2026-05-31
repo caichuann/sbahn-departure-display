@@ -2,7 +2,7 @@
 
 A CircuitPython app for the [Adafruit MatrixPortal S3](https://www.adafruit.com/product/5778) with a 64×64 RGB LED matrix. Displays real-time Munich S-Bahn departures, local weather, and a playable T-Rex mini-game — all controlled via a built-in web interface.
 
-<img width="833" height="605" alt="image" src="https://github.com/user-attachments/assets/36ebe23e-62fa-45a1-ab8f-ba4141284a7d" />
+<img width="812" height="565" alt="image" src="https://github.com/user-attachments/assets/812011fe-a26a-41c0-8e73-f38a2b90a2a0" />
 
 ***
 
@@ -14,7 +14,7 @@ A CircuitPython app for the [Adafruit MatrixPortal S3](https://www.adafruit.com/
 - **Web Control Panel** — Switch display modes and control the game from any browser on the same network
 - **Station Auto-Discovery** — Enter a station name in `settings.toml`; the app resolves it to a station ID automatically via the MVG locations API
 
-<img width="1796" height="621" alt="文档" src="https://github.com/user-attachments/assets/4fcd1170-a31d-4681-8ab4-2a0a3f4765c3" />
+<img width="1796" height="621" alt="screenshot" src="https://github.com/user-attachments/assets/ceb414af-9556-4ce8-b20d-5d0e91f8dc02" />
 
 ***
 
