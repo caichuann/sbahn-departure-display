@@ -49,16 +49,6 @@ def weathercode_to_bmp(code, is_day=1):
     return "unknown"
 
 
-def temp_color(celsius):
-    """Map temperature to display color."""
-    if celsius is None:
-        return COLOR_WHITE
-    if celsius < 4:
-        return COLOR_BLUE
-    if celsius > 29:
-        return COLOR_RED
-    return COLOR_WHITE
-
 
 class DisplayManager:
     def __init__(self):
@@ -237,7 +227,7 @@ class DisplayManager:
             self.temp_label.text = "--°C"
         else:
             self.temp_label.text = f"{int(round(temperature))}°C"
-        self.temp_label.color = temp_color(temperature)
+        self.temp_label.color = COLOR_WHITE
 
         # Weather icon
         icon_name = (weathercode_to_bmp(weather_code, is_day)
