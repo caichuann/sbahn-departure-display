@@ -14,7 +14,7 @@ A CircuitPython app for the [Adafruit MatrixPortal S3](https://www.adafruit.com/
 - **Web Control Panel** — Switch display modes and control the game from any browser on the same network
 - **Station Auto-Discovery** — Enter a station name in `settings.toml`; the app resolves it to a station ID automatically via the MVG locations API
 
-<img width="1920" height="1080" alt="文档" src="https://github.com/user-attachments/assets/4fcd1170-a31d-4681-8ab4-2a0a3f4765c3" />
+<img width="1796" height="621" alt="文档" src="https://github.com/user-attachments/assets/4fcd1170-a31d-4681-8ab4-2a0a3f4765c3" />
 
 ***
 
