@@ -1,0 +1,4 @@
+# Copy this file to settings.toml and fill in your values
+CIRCUITPY_WIFI_SSID = "your-wifi-name"
+CIRCUITPY_WIFI_PASSWORD = "your-wifi-password"
+SBAHN_STATION_NAME = "Giesing"

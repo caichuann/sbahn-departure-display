@@ -1,0 +1,16 @@
+# Personal configuration (WiFi credentials, station name)
+settings.toml
+
+# Python / CircuitPython
+__pycache__/
+*.pyc
+*.mpy
+
+# Third-party libraries (install via: circup install -r requirements.txt)
+lib/
+
+# macOS
+.DS_Store
+
+# CircuitPython runtime artifacts
+boot_out.txt
